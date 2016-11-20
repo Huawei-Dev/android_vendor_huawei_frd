@@ -12,4 +12,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+PRODUCT_PACKAGES += \
+    HWJNIFLPLocation
+
 $(call inherit-product, vendor/huawei/frd/frd-vendor-blobs.mk)
